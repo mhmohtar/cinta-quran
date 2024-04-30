@@ -1,0 +1,291 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home {
+    background-color: #E8F4FB;
+}
+
+
+.home .title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin-top: 119px;
+}
+.home .sub-title{
+    font-size: 16px;
+}
+.home img {
+    margin-top: 119px;
+}
+.home .btn-donasi{
+    background-color: #169AF7;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 7px 16px;
+    color: #fff;
+    border: solid 0px;
+}
+.home span{
+    font-weight: 600;
+    font-size: 20px;
+    color: #389ED9;
+}
+
+/* Donasi */
+.donasi .bg-bar {
+    background-color: #AFCD21;
+}
+.donasi .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.donasi span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #389ED9;
+}
+.donasi .selengkapnya{
+    font-weight: 500;
+    color: #389ED9;
+}
+.donasi .btn-donasi{
+    background-color: #fff;
+    border: 1px solid silver;
+    padding: 5px 17px;
+}
+.donasi .btn-donasi:hover{
+    background-color: #EFF7FC;
+    border: 1px solid #389ED9;
+    padding: 5px 17px;
+}
+/* program */
+.program{
+    background-color: #E8F4FB;
+}
+.program .bg-program-1{
+    /* background-image: url('assets/program/frame-2.png'); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/program/frame-1.png');
+    background-size: cover;
+    height: 420px;
+    margin-bottom: 1rem;
+}
+.program .bg-program{
+    /* background-image: url('assets/program/frame-2.png'); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/program/frame-2.png');
+    background-size: cover;
+    height: 420px;
+}
+.program .perkantoran {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/program/frame-3.png');
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+.program .majelis {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/program/frame-4.png');
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+.program .cinta {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/program/frame-5.png');
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+.program .program-body{
+    position:absolute; 
+    bottom:0px;
+    color: #fff;
+}
+.program .title{
+    font-size: 32px;
+}
+.program .sub-title{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* kajian-inspiratif */
+.kajian-inspiratif .btn-donasi{
+    background-color: #fff;
+    border: 1px solid silver;
+    padding: 5px 17px;
+}
+.kajian-inspiratif .btn-donasi:hover{
+    background-color: #EFF7FC;
+    border: 1px solid #389ED9;
+    padding: 5px 17px;
+}
+.kajian-inspiratif .program-body{
+    position:absolute; 
+    bottom: 15px;
+}
+.kajian-inspiratif .first-inspiratif{
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('{{ asset("assets/kajian-inspiratif/frame-1.png")}}'); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('http://127.0.0.1:8000/assets/kajian-inspiratif/frame-1.png');
+    background-size: cover;
+    height: 520px;
+}
+.kajian-inspiratif .inspiratif{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:8000/assets/kajian-inspiratif/frame.png');
+    background-size: cover;
+    height: 158px;
+    width: 168px;
+}
+
+.kajian-inspiratif .sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.kajian-inspiratif .title{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.kajian-inspiratif .date{
+    font-weight: 600;
+    font-size: 20px;
+    color: #AFCD21;
+}
+.kajian-inspiratif .time{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.kajian-inspiratif .mt-ki{
+    margin-top: 24px;
+}
+/* amazing group */
+.amazing{
+    background-color: #E8F4FB;
+}
+
+.amazing .box{
+    width: 100%;
+    
+    white-space: nowrap; /
+}
+
+.amazing .frame-1{
+    background-image: url('assets/amazing/amazing-2.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.amazing .frame-2{
+    background-image: url('assets/amazing/frame-3.png');
+    height: 100px;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+.amazing .frame-3{
+    background-image: url('assets/amazing/frame-3.png');
+    height: 140px;
+}
+.amazing .frame-4{
+    background-image: url('assets/amazing/frame-4.png');
+    height: 140px;
+}
+.amazing .frame-5{
+    background-image: url('assets/amazing/frame-5.png');
+    height: 140px;
+    
+    /* background-repeat: no-repeat; */
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    
+}
+/* panel */
+.panel .box{
+    background: linear-gradient(to right, rgba(97, 151, 231, 0.8), rgba(106, 206, 136, 0.7)), url('assets/amazing/panel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 272px;
+    border-radius: 24px;
+    margin-top: 160px;
+}
+.panel .title{
+    padding-top: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff ;
+}
+.panel .btn-daftar{
+    color: #169AF7;
+}
+/* footer */
+footer .single-box{
+    float: left;
+}
+
+footer .single-box .card-area ul{
+    list-style: none;
+}
+footer .single-box .card-area ul li{
+    margin-bottom: 10px;
+}
+footer .btn-laporan{
+    background-color: #169AF7;
+    color: #FFFFFF;
+}
+footer .btn-hubungi{
+    background-color: #00C062;
+    color: #FFFFFF;
+}
+
+
+/* @media (min-width < 576px) { 
+    .panel .title{
+        font-size: 18px;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .home .frame{
+        display: none;
+    }
+    .panel .title{
+        font-size: 18px;
+    }
+    /* donasi */
+    .donasi .label{
+        display: none;
+    }
+    .donasi .icon-label{
+        height: 15px;
+        width: 15px;
+    }
+    /* kajian inspiratif */
+    .kajian-inspiratif .icon-label{
+        height: 15px;
+        width: 15px;
+    }
+    .kajian-inspiratif .inspiratif{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/kajian-inspiratif/frame.png');
+        background-size: cover;
+        height: 98px;
+        width: 108px;
+    }
+    .kajian-inspiratif .label{
+        display: none;
+    }
+    /* amazing */
+    .amazing .grup {
+        width: 94px;
+        height: 40px;
+    }
+    /* program */
+    .program .cinta {
+        margin-top: 1rem;
+    }
+  }
